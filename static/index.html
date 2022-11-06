@@ -17,9 +17,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark.min.css"
     />
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic'); 
+		  @import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
+      @import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css'); 
+
       body {
+        font-family: 'Tossface', 'Nanum Gothic';
         background-color: #181a1b;
         color: #eee;
+      }
+      code {
+        font-family: 'Fira Code', monospace;
+      }
+      @supports (font-variation-settings: normal) {
+      code {
+        font-family: 'Fira Code VF', monospace;
+      }
       }
       .w-100 {
         max-width: 600px;

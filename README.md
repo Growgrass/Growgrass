@@ -11,7 +11,7 @@
 
 ## Live demo
 
-Official website: [https://discloud-storage.herokuapp.com/](https://discloud-storage.herokuapp.com/)
+Official website: [https://growgrass.fdzz.xyz/](https://growgrass.fdzz.xyz/)
 
 ## Use
 
